@@ -1,0 +1,31 @@
+<div class="container">
+    <h2>Proud Members of TechServices</h2>
+    <div class="row pt-4">
+        <% team.forEach(function(item){ %>
+
+            <div class="col-md-3">
+                <h3>
+                    <%= item.shortname %>
+                </h3>
+            </div>
+            <div class="col-md-3">
+                <h3>
+                    <%= item.title %>
+                </h3>
+            </div>
+            <div class="col-md-3 ">
+                <h3>
+                    <%= item.summary %>
+                </h3>
+            </div>
+            <div class="col-md-3 mb-2">
+
+
+                <img src="/images/team/<%= item.shortname %>.jpg" class="mb-4">
+            </div>
+
+            <%  }); %>
+    </div>
+    <!-- row -->
+</div>
+<!-- container -->

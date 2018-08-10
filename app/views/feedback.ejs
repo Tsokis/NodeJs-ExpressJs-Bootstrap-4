@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <% include partials/template/head.ejs %>
+</head>
+
+
+
+
+
+<body id="<%= pageID %>">
+
+    <% include partials/template/navigationMenu.ejs %>
+        <div class="container pb-2">
+            <article>
+                <h1>Feedback</h1>
+                <p>For immediate assistance visit our
+                    <em>chat</em> page</p>
+            </article>
+            <div class="row">
+                <!-- col-md-8 grid div start -->
+                <div class="col-md-8">
+                    <div class="jumbotron">
+                        <h3 class="text-center">If you want to contact us,fill out the form above
+                            <br> we are online 24/7 and ready to
+                            <br>help you!!</h3>
+                        <form class="feedback-form">
+                            <div class="form-group">
+                                <label for="feedback-form-fullname">FullName</label>
+                                <input type="text" class="form-control" placeholder="Enter your full name" id="feedback-form-fullname">
+                            </div>
+                            <div class="form-group">
+                                <label for="feedback-form-title">Title</label>
+                                <input type="text" class="form-control" placeholder="Title of the message" id="feedback-form-title">
+                            </div>
+                            <div class="form-group">
+                                <label for="feedback-form-message">Message</label>
+                                <textarea class="form-control" rows="3" id="feedback-form-message"></textarea>
+                            </div>
+                            <button type="submit" class="btn bg-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- col-md-8 grid div end -->
+                <div class="col-md-4">
+                    <article>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolore cupiditate ea voluptas voluptate
+                            minus quasi non obcaecati sequi dicta!</p>
+                        <h4>Latest Feedback</h4>
+                        <br>
+                        <p></p>
+                        <div class="feedback-messages"></div>
+                    </article>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius magnam quod, necessitatibus molestias,
+                                nobis perferendis amet praesentium pariatur at accusamus similique rerum distinctio nesciunt
+                                maxime labore voluptate, dolore libero molestiae! </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, modi voluptates reprehenderit
+                                aperiam deserunt dicta, sequi, nam pariatur quasi ratione ut odit possimus beatae deleniti
+                                blanditiis! Unde tempora sit ad!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur voluptates in expedita
+                                provident ratione nemo impedit perferendis harum asperiores, aperiam doloribus nihil eos
+                                error hic molestias quasi. Distinctio, sint.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <% include partials/content/footer.ejs %>
+
+            <% include partials/template/defaultscripts.ejs %>
+</body>
+
+</html>

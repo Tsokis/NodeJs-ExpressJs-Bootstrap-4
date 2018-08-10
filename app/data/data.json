@@ -1,0 +1,40 @@
+{
+    "team": [{
+        "title": "Development/Deploy",
+        "name": "Nikos Ntafopoulos",
+        "shortname": "Nik_Ntaf",
+        "summary": "Nik is an IT engineer interesting in web,android,blochain dev",
+        "description": "<p> Nikos was born ..................</p>",
+        "services": "networks-it-services.jpg",
+        "teamphoto": "Nik_Ntaf.jpg"
+
+    }, {
+        "title": "Agro Culture",
+        "name": "Aris Tanos",
+        "shortname": "Aris_Tanos",
+        "summary": "Aris is known for he's agroculture community interests and always exploring new things",
+        "description": "<p> Aris was born ..................</p>",
+        "services": "marketing-services.jpg",
+        "teamphoto": "Aris_Tanos.jpg"
+
+    }, {
+        "title": "Networks/Servers",
+        "name": "Giannis Sarris",
+        "shortname": "Gian_Sar",
+        "summary": "Giannis is IT engineer interesting in Networks engineering and cloud infrastructures",
+        "description": "<p> Giannis was born ..................</p>",
+        "services": "mobile-repair.jpg",
+        "teamphoto": "Gian_Sar.jpg"
+
+
+    }, {
+        "title": "FinTech",
+        "name": "Kontantinos Kokkinas",
+        "shortname": "kon_kokki",
+        "summary": "Konstantinos loves Fintech companies,also hes is speaker for many fintech events",
+        "description": "<p> Konstantinos was born ..................</p>",
+        "services": "hardware-services.jpg",
+        "teamphoto": "kon-kokki.jpg"
+
+    }]
+}

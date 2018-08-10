@@ -1,0 +1,19 @@
+{
+  "name": "nodejssecondproject",
+  "version": "1.0.0",
+  "description": "node and express js website",
+  "main": "app/app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "node.js": "^0.0.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikos Ntafopoulos",
+  "license": "ISC"
+}

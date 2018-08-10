@@ -1,0 +1,38 @@
+<% include partials/template/head.ejs %>
+
+<body id="<%= pageID %>">
+<% include partials/template/navigationMenu.ejs %>
+
+
+<div class="container">
+<div class="row">
+ <div class="col-md-4">
+     
+<div class="pb-2">
+    <% servicesData.forEach(function(item){ %>
+
+        <img src="../images/services/<%= item.services %> ">
+    <%  }); %>
+
+</div>
+
+     
+</div>
+ <div class="col-md-8">
+     <h4 class="text-center">Services info</h4>
+     <p class="">Nikos Ntafopoulos Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, recusandae ea amet aperiam sequi fugiat. Iure veniam, vel ut dolor sit quasi, illum mollitia modi cumque facere, iste doloribus sequi!</p>
+     <p class="">Aris Tanos Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum delectus harum quibusdam nobis magni, labore iusto tempore! Ea cupiditate quas reprehenderit, perspiciatis, eveniet a quod, molestias dolor quae explicabo alias?</p>
+     <p class="">Giannis Saris Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, excepturi repudiandae deleniti eaque veritatis cum iure consequatur, doloribus ad dolorum, fugit libero a voluptas. Labore distinctio ratione veritatis porro nisi.</p>
+     <p class="">Konstantinos Kokkinas Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ratione totam obcaecati amet facilis illo vitae aspernatur nihil architecto necessitatibus! Blanditiis saepe aliquam pariatur asperiores provident repellendus cum suscipit expedita.</p>
+
+     <article>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, odit! Accusantium magni excepturi dolores fugiat, debitis vero voluptate libero? Placeat ullam quia repellendus dolorem suscipit ipsam esse dignissimos, fugiat aliquam maxime qui aperiam minima unde sequi. Molestiae laudantium, hic dignissimos adipisci quod, quae maxime, sunt maiores velit itaque cum nesciunt alias ratione eum fugiat. Et accusamus nesciunt odit sapiente natus minima. Accusantium ipsam quos in dicta consequuntur sint aut, necessitatibus delectus? Mollitia voluptatem animi deserunt exercitationem consequuntur vero perspiciatis. Ut blanditiis libero illo nam expedita facere quisquam aperiam dolores laboriosam corrupti quis, cupiditate facilis at, ab animi itaque, eveniet officia.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam commodi voluptatum, labore accusantium deserunt neque, illum dolorum aliquid reprehenderit dicta sapiente quod eligendi laudantium minus modi possimus, qui nostrum maiores quae accusamus magnam? Tempore assumenda sunt consectetur perspiciatis voluptas commodi maiores culpa facilis quam unde! Ipsa nisi ex, facilis, fugiat similique dolorem veniam consequuntur incidunt cupiditate, quisquam molestias? Voluptas quos maiores voluptatem fugit, beatae perferendis minus eius incidunt. Similique rerum aut, nobis enim corrupti facere quasi rem? Ipsam voluptatem reiciendis quod numquam nulla, beatae eos. Officiis repellat accusantium nobis, nihil labore suscipit qui iure reiciendis illum sequi inventore quod consectetur!</p>
+     </article>
+ </div>
+</div>
+</div>
+
+<% include partials/content/footer.ejs %>
+</body>
+<% include partials/template/defaultscripts.ejs %>

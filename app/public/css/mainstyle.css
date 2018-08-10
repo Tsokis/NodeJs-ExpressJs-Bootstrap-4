@@ -1,0 +1,25 @@
+h2 {
+    color: darkred;
+    text-align: center;
+    font-family: 'Hanalei Fill', cursive;
+}
+
+img {
+    margin-top: -24px;
+    display: block;
+    width: 100%;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.fouterclasscolor {
+    background-color: grey;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: darkslategray
+}
