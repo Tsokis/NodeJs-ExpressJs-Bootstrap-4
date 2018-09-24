@@ -12,6 +12,6 @@ routes:
 
 I've focused more on the back-end so it can be a functional website, and on the front-end i used bootstrap 4
 for a quick decent looking website,
-especially the grid system of Bootstrap and a  mix of vanilla js and jquery for handing the feedback form and the chat page.
+especially the grid system of Bootstrap and a  mix of vanilla js and jquery for handling the feedback form and the chat page.
 
 
