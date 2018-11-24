@@ -29,12 +29,12 @@ app.use(require('./routes/index'));
 app.use(require('./routes/team'));
 app.use(express.static('public'));
 app.use(require('./routes/feedback'));
-//adding some feedback to display NOTE:through this way we have to make a js dom script for parsing the data to the actual page insteas of showing as json /api
+// adding some feedback to display NOTE:through this way we have to make a js dom script for parsing the data to the actual page instead of showing as json /api
 app.use(require('./routes/api'));
 app.use(require('./routes/services'));
 app.use(require('./routes/chat'));
 
-//buckle up the server
+// server
 var server = app.listen(app.get('port'), function () {
    console.log('Listening on port:' + app.get('port'));
  });
@@ -47,28 +47,6 @@ io.on('connection', function(socket) {
           io.emit('updateMessages', data);
   });
 });
-
-
-
-
-
-
-
-/**  making server with node Js
-
-var http = require('http');
-
-var myServer = http.createServer(function (request, response) {
-    
-    response.writeHead(200, {"Content-Type" : "text/html"});   
-    response.write('<h1>Live response!</h1>');
-    response.end();
-    
-});
-
-myServer.listen(3000);
-console.log('Your are ON mate!!Cheers!!');
-**/
 
 
 

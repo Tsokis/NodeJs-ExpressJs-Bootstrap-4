@@ -23,7 +23,7 @@ router.use(bodyParser.urlencoded({ extended: false }));
 router.post('/api', function (req, res){
     // push the latest feedback on the top
     feedbackData.unshift(req.body); 
-    // save, read propertly in our feedback.json and capute the error if exists
+    // save, read propertly in our feedback.json and capture the error if exists
     fs.writeFile('../app/data/feedback.json', JSON.stringify(feedbackData), 'utf8', function(err) {
         if(err){
         console.log(err);
@@ -37,7 +37,7 @@ router.post('/api', function (req, res){
 router.delete('/api/:id', function (req, res){
     // delete the element
     feedbackData.splice(req.params.id, 1); 
-    // save, read propertly in our feedback.json and capute the error if exists
+    // save, read propertly in our feedback.json and capture the error if exists
     fs.writeFile('../app/data/feedback.json', JSON.stringify(feedbackData), 'utf8', function(err) {
         console.log(err);
     });
